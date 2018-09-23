@@ -80,7 +80,7 @@
     <Compile Include="Providers\VkProvider.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Statistic\Base\BaseFrequencyCounter.cs" />
+    <Compile Include="Statistic\Base\FrequencyCounter.cs" />
     <Compile Include="Statistic\DigitsFrequencyCounter.cs" />
     <Compile Include="Statistic\LettersFrequencyCounter.cs" />
   </ItemGroup>
