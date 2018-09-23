@@ -25,7 +25,7 @@ namespace StatisticBot
 
                 FrequencyCounter counter = new LettersFrequencyCounter();
                 var statistic = counter.GetStatistic(String.Join("", posts));
-                var statisticMessage = $"{userId}, статистика для последних 5 постов: {statistic}";
+                var statisticMessage = $"{userId}, статистика для последних {postsCount} постов: {statistic}";
                 provider.CreatePost(statisticMessage);
 
                 Console.WriteLine("Статистика успешно опубликована");
